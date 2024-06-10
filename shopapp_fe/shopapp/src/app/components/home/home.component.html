@@ -1,0 +1,54 @@
+<style>
+  .search-box{
+    display: flex;
+  }
+  .product-item{
+    background-color: gray ;
+    border: 1px solid gray ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .product-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+</style>
+
+<div class="container">
+  <app-header></app-header>
+  <div class="intro-section">
+    <h1>Đây là trang home</h1>
+    <p>Hiển thị sản phẩm</p>
+  </div>
+  <div class="search-box">
+    <input type="text" class="form-control search-input" placeholder="Tìm sản phẩm">
+    <select class="form-control" name="" id="">
+      <option selected disabled>Danh mục sản phẩm</option>
+      <option value=""></option>
+    </select>
+  </div>
+<div class="row">
+  <div class="col-lg-4 col-md-6">
+    <div class="product-item">
+      <img class="product-image" src="https://laptop88.vn/media/product/8549_hp_14s_dr2009tu_ac.jpg" alt="">
+      <p>SP 1</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error ratione dignissimos quia quae? </p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-alt"></i>
+      </div>
+      <div class="product-actions">
+        <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+        <button class="btn btn-section">Mua hàng</button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+</div>
+

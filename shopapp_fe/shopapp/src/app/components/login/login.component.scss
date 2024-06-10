@@ -1,0 +1,97 @@
+.login-form{
+  background-color: rgb(58, 39, 39) !important;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-header {
+  text-align: center;
+  color: greenyellow;
+  margin-bottom: 20px;
+}
+
+.form-control{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.divider-nospace{
+  border-top: 1px solid white;
+}
+
+.password-field{
+  position: relative;
+}
+
+.form-control:focus{
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border-color: transparent;
+}
+
+.password-toggle{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.checkbox-text{
+  border-color: white;
+  // background-color: pink;
+}
+
+.checkbox-text{
+  color: rgb(243, 165, 42);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-check-input{
+  margin-right: 5px;
+}
+
+.register-link{
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.access-right{
+  margin-top: 20px;
+  width: 200px;
+  color: white;
+  border: 1px solid pink;
+}
+
+.access-right:focus{
+  border: 1px solid pink;
+}
+
+.form-control::placeholder{
+  color: pink;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder{
+  columns: pink;
+}
+
+.login-button{
+  background: linear-gradient(to right, rgb(225, 64,180), rgb(126, 43, 237));;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  border: none;
+}
